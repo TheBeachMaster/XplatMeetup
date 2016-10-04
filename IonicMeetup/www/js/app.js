@@ -53,6 +53,9 @@ angular.module('starter', ['ionic'])
  //We put our video player here
  $scope.clipSrc = 'assets/myvid.mp4';
  
+ //Add Image Preview for the video
+$scope.preview = 'assets/imgprev.PNG';
+
 $scope.playVideo = function() {
 	$scope.showModal('templates/video-popover.html');
 }
