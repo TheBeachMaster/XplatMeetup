@@ -50,7 +50,14 @@ angular.module('starter', ['ionic'])
 			$scope.modal.show();
 		});
 	}
+ //We put our video player here
+ $scope.clipSrc = 'img/coffee.MOV';
  
+$scope.playVideo = function() {
+	$scope.showModal('templates/video-popover.html');
+}
+//Then Create the Video Player Template
+
 	// Close the modal
 	$scope.closeModal = function() {
 		$scope.modal.hide();
