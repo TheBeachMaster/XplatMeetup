@@ -23,7 +23,7 @@ angular.module('starter', ['ionic'])
   });
 })
 
-.controller('MediaCtrl', function($scope, $ionicModal) {
+.controller('MediaCtrl', function($scope, $ionicModal,$ionicBackdrop,$ionicSlideBoxDelegate, $ionicScrollDelegate) {
 	$scope.allImages = [{
 		'src' : 'img/gitz.png'
 	}, {
@@ -61,6 +61,15 @@ $scope.playVideo = function() {
 }
 //Then Create the Video Player Template
 
+//Scroll handler
+$scope.updateSlideStatus = function(slide) {
+  var zoomFactor = $ionicScrollDelegate.$getByHandle('scrollHandle' + slide).getScrollPosition().zoom;
+  if (zoomFactor == $scope.zoomMin) {
+    $ionicSlideBoxDelegate.enableSlide(true);
+  } else {
+    $ionicSlideBoxDelegate.enableSlide(false);
+  }
+}
 	// Close the modal
 	$scope.closeModal = function() {
 		$scope.modal.hide();
