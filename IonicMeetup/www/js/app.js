@@ -25,11 +25,11 @@ angular.module('starter', ['ionic'])
 
 .controller('MediaCtrl', function($scope, $ionicModal) {
 	$scope.allImages = [{
-		'src' : 'assets/gitz.png'
+		'src' : 'img/gitz.png'
 	}, {
-		'src' : 'assets/ram.png'
+		'src' : 'img/ram.png'
 	}, {
-		'src' : 'assets/save.png'
+		'src' : 'img/save.png'
 	}];
   //TO DO 
   /*
@@ -51,10 +51,10 @@ angular.module('starter', ['ionic'])
 		});
 	}
  //We put our video player here
- $scope.clipSrc = 'assets/myvid.mp4';
+ $scope.clipSrc = 'img/myvid.mp4';
  
  //Add Image Preview for the video
-$scope.preview = 'assets/imgprev.PNG';
+$scope.preview = 'img/imgprev.PNG';
 
 $scope.playVideo = function() {
 	$scope.showModal('templates/video-popover.html');
