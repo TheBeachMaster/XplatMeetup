@@ -22,3 +22,38 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+.controller('MediaCtrl', function($scope, $ionicModal) {
+	$scope.allImages = [{
+		'src' : 'assets/gitz.png'
+	}, {
+		'src' : 'assets/ram.png'
+	}, {
+		'src' : 'assets/save.png'
+	}];
+  //TO DO 
+  /*
+  Add more Images
+  */
+ 
+	$scope.showImages = function(index) {
+		$scope.activeSlide = index;
+		$scope.showModal('templates/image-popover.html');
+	}
+ 
+	$scope.showModal = function(templateUrl) {
+		$ionicModal.fromTemplateUrl(templateUrl, {
+			scope: $scope,
+			animation: 'slide-in-up'
+		}).then(function(modal) {
+			$scope.modal = modal;
+			$scope.modal.show();
+		});
+	}
+ 
+	// Close the modal
+	$scope.closeModal = function() {
+		$scope.modal.hide();
+		$scope.modal.remove()
+	};
+})
