@@ -51,7 +51,7 @@ angular.module('starter', ['ionic'])
 		});
 	}
  //We put our video player here
- $scope.clipSrc = 'img/coffee.MOV';
+ $scope.clipSrc = 'assets/myvid.mp4';
  
 $scope.playVideo = function() {
 	$scope.showModal('templates/video-popover.html');
