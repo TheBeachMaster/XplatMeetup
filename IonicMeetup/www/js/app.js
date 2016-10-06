@@ -54,7 +54,7 @@ angular.module('starter', ['ionic'])
  $scope.clipSrc = 'img/myvid.mp4';
  
  //Add Image Preview for the video
-$scope.preview = 'img/imgprev.PNG';
+$scope.previewImg = 'img/imgprev.PNG';
 
 $scope.playVideo = function() {
 	$scope.showModal('templates/video-popover.html');

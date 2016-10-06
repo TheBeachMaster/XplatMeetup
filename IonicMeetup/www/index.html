@@ -46,13 +46,14 @@
         <i class="ion-images"></i> Local Images
       </div>
       <a class="item item-list-detail">
-        <ion-scroll direction="x">
+        <ion-scroll direction="x" style="height:200px;width:400px;">
           <img ng-repeat="image in allImages" ng-src="{{image.src}}" ng-click="showImages($index)" class="image-list-thumb" />
         </ion-scroll>
       </a>
       <br><br>
       <div class="button-bar">
-        <button class="button button-outline button-positive" ng-click="playVideo()">Play awesome video</button>
+        <button class="button  button-calm" ng-click="playVideo()">Play awesome video</button>
+        <!--Removed button-outline-->
       </div>
     </ion-content>
   </ion-pane>
