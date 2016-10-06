@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app="image-app">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -27,17 +27,12 @@
 <body>
     <ons-page ng-controller="HelloController as hello">
         <ons-toolbar>
-        <div class="center">Introduction</div>
+        <div class="center">Monaca Image App</div>
         </ons-toolbar>
 
         <section style="margin: 10px;">
-        <p>What is your name?</p>
-        <p>
-          <ons-input modifier="underbar" ng-model="hello.world" placeholder="Your name" float></ons-input>
-        </p>
-        <p>
-          Hello, {{ hello.world || 'stranger' }}!
-        </p>
+        <p>Local Images</p>
+        
         </section>
     </ons-page>
 </body>
