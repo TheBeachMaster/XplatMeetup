@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>CSOK XPLatMeetup App</title>
 
-    <link rel="manifest" href="manifest.json">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>CSOK XPLatMeetup App</title>
 
-    <!-- un-comment this code to enable service worker
+  <link rel="manifest" href="manifest.json">
+
+  <!-- un-comment this code to enable service worker
     <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('service-worker.js')
@@ -16,49 +17,51 @@
       }
     </script>-->
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
-      <!--ngCordova Wrapper -->
-      <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <!--ngCordova Wrapper -->
+  <script src="lib/ngCordova/dist/ng-cordova.js"></script>
 
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
 
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
 
-    <!--Load Controller and Services -->
-    <script src="js/controllers.js"></script>
-<script src="js/services.js"></script>
-  </head>
-  <body ng-app="starter">
+  <!--Load Controller and Services -->
+  <script src="js/controllers.js"></script>
+  <script src="js/services.js"></script>
+</head>
 
-    <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title center">CSOK Meetup Image App</h1>
-      </ion-header-bar>
-      <ion-content class="has-header padding" ng-controller="ImageController">
-    
-    <ion-scroll direction="x" style="height:400px; min-height: 200px; overflow: scroll; white-space: nowrap;">
-      <img ng-repeat="image in images" ng-src="{{urlForImage(image)}}" style="height:200px; padding: 5px 5px 5px 5px;"/>
-    </ion-scroll>
-<br><br>
-    <button class="button button-full button-energized" ng-click="addMedia()">
+<body ng-app="starter">
+
+  <ion-pane>
+    <ion-header-bar class="bar-stable">
+      <h1 class="title center">CSOK Meetup Image App</h1>
+    </ion-header-bar>
+    <ion-content class="has-header padding" ng-controller="ImageController">
+
+      <ion-scroll direction="x" style="height:400px; min-height: 200px; overflow: scroll; white-space: nowrap;">
+        <img ng-repeat="image in images" ng-src="{{urlForImage(image)}}" style="height:200px; padding: 5px 5px 5px 5px;" />
+      </ion-scroll>
+      <br><br>
+      <button class="button button-full button-energized" ng-click="addMedia()">
       Add image
     </button>
-    <button class="button button-full button-positive" ng-click="sendEmail()">
+      <button class="button button-full button-positive" ng-click="sendEmail()">
       Send mail
     </button>
-    
 
-  </ion-content>
-    </ion-pane>
-  </body>
+
+    </ion-content>
+  </ion-pane>
+</body>
+
 </html>

@@ -84,9 +84,9 @@ angular.module('starter', ['ionic','ngCordova'])
   $scope.openMailComposer = function(attachments) {
     var bodyText = '<html><h2>My Images</h2></html>';
     var email = {
-        to: 'some@email.com',
+        to: 'otienoken@outlook.com',
         attachments: attachments,
-        subject: 'Devdactic Images',
+        subject: 'Xplat Meetup',
         body: bodyText,
         isHtml: true
       };
