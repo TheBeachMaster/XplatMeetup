@@ -31,6 +31,7 @@ D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\cordova-js-src \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\cordova.js \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\css \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\index.html \
+D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\js \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\lib \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\README.md \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\components\loader.css \
@@ -50,6 +51,7 @@ D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\cordova-js-src\an
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\cordova-js-src\plugin\android \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\cordova-js-src\plugin\android\app.js \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\css\style.css \
+D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\js\app.js \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\lib\angular \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\lib\onsenui \
 D:\Repos\XplatMeetup\MonacaMeetup\platforms\android\assets\www\lib\angular\angular-animate.js \
