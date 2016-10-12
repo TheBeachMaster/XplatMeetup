@@ -51,7 +51,7 @@ angular.module('starter', ['ionic'])
 		});
 	}
  //We put our video player here
- $scope.clipSrc = 'img/myvid.mp4';
+ $scope.clipSrc = 'img/sadic.mp4';
  
  //Add Image Preview for the video
 $scope.previewImg = 'img/imgprev.PNG';
