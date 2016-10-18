@@ -1,6 +1,6 @@
 # XplatMeetup
 
-The main aim of this meetup is to highlight the various cross-platform solutions in the market right now and their differences
+The main aim of this meetup is to highlight the various cross-platform solutions in the market right now  their differences and how to set you up
 
 ## Ionic 
 <details>
