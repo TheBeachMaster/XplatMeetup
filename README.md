@@ -143,10 +143,10 @@ Xamarin for Mac is also available fro the [official Xamarin website]  (https://w
 Xamarin is also available out of the box with all up-todate editions of Visual Studio with no further installations necessary . 
 
 </details>
-
+## Materials
 <details>
 <summary>
-## Materials
+Stuff to get you up and running
 </summary>
 Download our prebuilt sample app from [here] (https://goo.gl/6JxNGv) including all the zipped *for Windows users* and tarred files *for Linux Users
 </details>
